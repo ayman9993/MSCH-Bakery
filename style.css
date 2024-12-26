@@ -1,0 +1,271 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(12, 77, 52);
+}
+
+#MSCH {
+    margin-right: 30%;
+    padding: 8px;
+    height: 70px;
+    width: auto;
+    border-radius: 15%;
+}
+
+#MSCH:hover {
+    border-radius: 0px;
+    transform: scale(1.1);
+    filter: brightness(1.3);
+    box-shadow: 4px 8px 16px rgba(28, 165, 135, 0.3);
+}
+
+#soytan {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    padding-left: 80px;
+    margin-top: -70px;
+    text-shadow: 0 0 4px cyan,
+                 0 0 8px cyan,
+                 0 0 16px cyan,
+                 0 0 32px cyan;
+}
+
+#ami {
+    margin-top: -269px;
+    padding: 200px;
+    text-align: center;
+}
+
+#searchbu {
+    position: absolute;
+    top: 18px;
+    right: 18px;
+    margin-right: 140px;
+    margin-top: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+
+#searchbu1 {
+    width: 13px;
+    height: 17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1px;
+    padding-top: 2px;
+    padding-bottom: 0px;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    outline: none;
+    text-decoration: none;
+}
+
+#searchbu:hover {
+cursor: pointer;
+}
+
+#tui {
+    padding: 7px;
+    width: 48em;
+    border-radius: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-color: aqua;
+
+}
+
+#profile {
+    position: absolute;
+    top: 27px;
+    right: 3.344em;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+    border-radius: 50%;
+    transition: all 0.3s ease-in-out;
+}
+
+
+#profile1 {
+    font-size: 20px;
+    color: black;
+}
+
+#profile:hover{
+    transform: scale(1.2);
+ 
+}
+
+#shopping {
+    position: absolute;
+    top: 27px;
+    right: 6.2em;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+    border-radius: 50%;
+    transition: all 0.3s ease-in-out;
+}
+
+#shopping1 {
+    font-size: 17px;
+    margin-top: 3px;
+    
+    
+}
+#shopping:hover{
+    transform: scale(1.2);
+}
+#bar {
+    position: absolute;
+    top: 27px;
+    right: 0.5em;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+    border-radius: 50%;
+    transition: all 0.3s ease-in-out;
+}
+#bar1{
+    
+    margin-top: 2.7px;
+    font-size: 18;
+    color: black;
+}
+
+#bar:hover {
+    transform: scale(1.2);
+}
+#nav-menu {
+    position: fixed;
+    top: 1em;
+    left: -160px; 
+    width: 160px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 20px 0;
+    z-index: 9999;
+    transition: left 0.3s ease-in-out;
+
+    border-radius: 0 5px 5px 0; 
+}
+
+#nav-menu ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    text-align: center;
+}
+
+#nav-menu ul li {
+    margin: 5px 0;
+}
+
+#nav-menu ul li a {
+    background-color: black;
+    text-decoration: none;
+    color: #ecf0f1; 
+    font-size: 14px;
+    font-weight: bold;
+    font-family: 'Merriweather', serif;
+    padding: 10px;
+    display: block;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+#nav-menu ul li a:hover {
+    background-color: aqua; 
+    color: black;
+}
+
+#nav-menu.active {
+    left: 0;
+}
+
+
+#bread {
+    position: relative;
+    margin-top: -11em;
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+    user-select: none;
+    pointer-events: none;
+    z-index: -1;
+    
+}
+
+#welcome {
+    font-family: "Abril Fatface", serif;
+    font-size: 65px;
+    position: absolute;
+    color: rgb(120, 240, 224);
+    margin-top: -370px;
+    padding-left: 52px;
+    z-index: 2;
+    text-shadow: 0 0 4px cyan;
+}
+
+#welcome:hover {
+    color: seashell;
+    text-shadow: 0 0 8px cyan, 0 0 16px cyan;
+}   
+
+#card {
+    text-align: center;
+    color: rgb(64, 255, 245);
+    font-family: "Permanent Marker", serif;
+    font-size: 50px;
+    overflow-wrap: break-word;
+
+}
+
+#ta{
+    width: 30em;
+    justify-content: center;
+    margin: 20px auto;
+    padding-bottom: 5px;
+    font-family: monospace;
+    font-size: 20px;
+}
+
+#ta td,#ta th {
+    padding: 13px;
+    border: 1px solid white;
+
+
+}
+#ta th{
+    background-color: rgb(33, 218, 125);
+}
+#ta td {
+    text-align: center;
+    background-color: rgb(208, 233, 229);
+}
+#version {
+    font-size: 50px;
+    color: aqua;
+    background-color: blue;
+}
