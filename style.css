@@ -219,7 +219,7 @@ cursor: pointer;
 
 #welcome {
     font-family: "Abril Fatface", serif;
-    font-size: 65px;
+    font-size: 10vw;
     position: absolute;
     color: rgb(120, 240, 224);
     margin-top: -370px;
