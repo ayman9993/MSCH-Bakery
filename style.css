@@ -264,8 +264,9 @@ cursor: pointer;
     text-align: center;
     background-color: rgb(208, 233, 229);
 }
-#version {
+#back{
+    background-color: black;
+    color: white;
+    text-align: center;
     font-size: 50px;
-    color: aqua;
-    background-color: blue;
 }
