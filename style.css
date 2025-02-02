@@ -269,6 +269,7 @@ cursor: pointer;
     color: white;
     text-align: center;
     font-size: clamp(3px,5vh,40px);
-    padding-top: 20px
-    padding-bottom:20px
+    padding-top: 20px;
+    padding-bottom:20px;
+    
 }
