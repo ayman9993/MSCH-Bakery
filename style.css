@@ -268,5 +268,5 @@ cursor: pointer;
     background-color: black;
     color: white;
     text-align: center;
-    font-size: 50px;
+    font-size: clamp(3px,5vh,40px);
 }
