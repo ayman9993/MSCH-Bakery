@@ -213,13 +213,13 @@ cursor: pointer;
     height: auto;
     user-select: none;
     pointer-events: none;
-    z-index: -1;
+    z-index: -10;
     
 }
 
 #welcome {
     font-family: "Abril Fatface", serif;
-    font-size: 10vw;
+    font-size: 65pt;
     position: absolute;
     color: rgb(120, 240, 224);
     margin-top: -370px;
@@ -237,39 +237,39 @@ cursor: pointer;
     text-align: center;
     color: rgb(64, 255, 245);
     font-family: "Permanent Marker", serif;
-    font-size: 50px;
+    font-size: clamp(1px,5vw,50px);
     overflow-wrap: break-word;
 
 }
 
 #ta{
-    width: 30em;
-    justify-content: center;
+    table-layout: fixed;
+    width: 60%;
     margin: 20px auto;
-    padding-bottom: 5px;
+    padding: 5px 10px;
+    text-align: center;
     font-family: monospace;
-    font-size: 20px;
+    font-size: clamp(10px, 2vw, 20px);
 }
 
-#ta td,#ta th {
-    padding: 13px;
-    border: 1px solid white;
+#ta td,#ta th{
+    border: 5px solid white;
+    padding: 20px;
 
-
+    
 }
 #ta th{
     background-color: rgb(33, 218, 125);
 }
 #ta td {
     text-align: center;
-    background-color: rgb(208, 233, 229);
+    background-color: rgb(204, 255, 246);
 }
 #back{
     background-color: black;
     color: white;
     text-align: center;
-    font-size: clamp(3px,5vh,40px);
-    padding-top: 20px;
-    padding-bottom:20px;
-    
+    font-size: clamp(7px,5vw,40px);
+    padding-top:clamp(3px,5vh,20px) ;
+    padding-bottom: clamp(3px,5vh,20px);
 }
