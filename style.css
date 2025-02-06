@@ -35,25 +35,24 @@ body {
 #ami {
     position: relative;
     width: 70%;
-    margin-top: 20px;
     margin: auto;
-    margin-top: -4.2em;
+    margin-top: -4em;
 }
 
 #ami input {
     width: 100%;
-    padding: 10px 15px 10px 10px;
-
+    padding: 10px 15px 10px 10px; /* বাঁ পাশে জায়গা বাড়ানো হলো */
     border-radius: 20px;
     border: 2px solid aqua;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     outline: none;
+    font-size: 16px;
 }
 
 #searchbu {
     position: absolute;
     top: 50%;
-    right: -20px;
+    right: -1em;
     transform: translateY(-50%);
     background: none;
     border: none;
@@ -64,6 +63,7 @@ body {
     font-size: 18px;
     color: rgb(0, 170, 255);
 }
+
 
 
 #profile {
