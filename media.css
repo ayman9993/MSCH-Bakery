@@ -1,7 +1,59 @@
-@media screen and (max-width: 600px) {  
-    #welcome {  
+@media screen and (max-width:500px) {
+    #MSCH {
+        width: 40px;
+        height: auto;
+    }
+    #ami input {
+        position: relative;
+        width: 85%;
+        height: 7px;
+        padding-top: 5px;
+        padding-bottom: 6px;
+        margin-top:25px ;
+        border-radius: 5px;
+        font-size: 10px;
 
-        font-size: 22px;
-        margin-top: -6.4em;
+    }
+
+    #searchbu i {
+        position: absolute;
+        font-size: 11px;
+        margin-top:5px ;
+        left: -35px
+    }
+    
+    #searchbu {
+        bottom: 0.1px;
+        right: -2px;
+    }
+    #bar {
+        width: 30px;
+        height: 30px;
+    }
+    #bar1 {
+        font-size: 13px;
+    }
+}
+
+
+
+@media screen and (max-width: 650px){
+    #ta {
+        width: 100%;
     }  
+}
+
+@media screen and (max-width:750px){
+    #soytan {
+        display: none;
+
+    }
+    #profile {
+        display: none;
+    }
+    
+    #shopping {
+        display: none;
+    }
+ 
 }
