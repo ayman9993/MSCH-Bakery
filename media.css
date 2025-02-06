@@ -1,8 +1,19 @@
 @media screen and (max-width:500px) {
     #MSCH {
-        width: 40px;
+        width: 36px;
         height: auto;
     }
+    #MSCH:hover{
+        border-radius: 0px;
+        transform: none;
+        filter:none;
+        box-shadow:none;
+    }
+
+    #ami {
+        margin-top: -4em;
+    }
+
     #ami input {
         position: relative;
         width: 85%;
@@ -18,20 +29,25 @@
     #searchbu i {
         position: absolute;
         font-size: 11px;
-        margin-top:5px ;
+        right: 1em;
+        margin-top:8px ;
         left: -35px
     }
     
     #searchbu {
         bottom: 0.1px;
-        right: -2px;
+
     }
     #bar {
+        margin-top: -15px;
         width: 30px;
         height: 30px;
     }
     #bar1 {
         font-size: 13px;
+    }
+    #bread{
+        margin-top: ;
     }
 }
 
