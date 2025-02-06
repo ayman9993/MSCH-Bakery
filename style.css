@@ -24,7 +24,8 @@ body {
     font-family: 'Times New Roman', Times, serif;
     font-size: 25px;
     padding-left: 80px;
-    margin-top: -70px;
+    margin-top: -76px;
+    color: #c4faf1;
     text-shadow: 0 0 4px cyan,
                  0 0 8px cyan,
                  0 0 16px cyan,
@@ -32,54 +33,37 @@ body {
 }
 
 #ami {
-    margin-top: -269px;
-    padding: 200px;
-    text-align: center;
+    position: relative;
+    width: 70%;
+    margin: auto;
+    margin-top: -20px;
+}
+
+#ami input {
+    width: 100%;
+    padding: 10px 40px 10px 10px; /* ডান দিকে জায়গা রাখছি বাটনের জন্য */
+    border-radius: 20px;
+    border: 2px solid aqua;
+    font-size: 14px;
+    outline: none;
 }
 
 #searchbu {
     position: absolute;
-    top: 18px;
-    right: 18px;
-    margin-right: 140px;
-    margin-top: 18px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: rgb(255, 255, 255);
-    border: 2px solid rgb(255, 255, 255);
-    border-radius: 8px;
+    top: 50%;
+    right: 10px; /* ইনপুটের ডান দিকে রাখতে */
+    transform: translateY(-50%);
+    background: none;
+    border: none;
     cursor: pointer;
 }
 
-
-#searchbu1 {
-    width: 13px;
-    height: 17px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 1px;
-    padding-top: 2px;
-    padding-bottom: 0px;
-    border-radius: 50%;
-    background-color: rgb(255, 255, 255);
-    outline: none;
-    text-decoration: none;
+#searchbu i {
+    font-size: 16px;
+    color: rgb(0, 170, 255);
 }
 
-#searchbu:hover {
-cursor: pointer;
-}
 
-#tui {
-    padding: 7px;
-    width: 48em;
-    border-radius: 20px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    border-color: aqua;
-
-}
 
 #profile {
     position: absolute;
@@ -143,7 +127,7 @@ cursor: pointer;
     transition: all 0.3s ease-in-out;
 }
 #bar1{
-    
+    position: relative;
     margin-top: 2.7px;
     font-size: 18;
     color: black;
@@ -203,32 +187,34 @@ cursor: pointer;
     left: 0;
 }
 
-
-#bread {
+.bread {
     position: relative;
-    margin-top: -11em;
-    max-width: 100%;
-    max-height: 100%;
-    width: auto;
-    height: auto;
+    margin-top: 4em;
+    z-index: -10;
+}
+
+.bread img{
+    width: 100%;
     user-select: none;
     pointer-events: none;
     z-index: -10;
     
 }
 
-#welcome {
+.welcome {
     font-family: "Abril Fatface", serif;
-    font-size: 65pt;
+    font-size: clamp(3px,3vw,40px);
     position: absolute;
+    top: 50%;
+    padding-left:14em ;
+    transform: translate(-50%, -50%);
     color: rgb(120, 240, 224);
-    margin-top: -370px;
-    padding-left: 52px;
-    z-index: 2;
     text-shadow: 0 0 4px cyan;
+    z-index: 20;
+
 }
 
-#welcome:hover {
+.welcome:hover {
     color: seashell;
     text-shadow: 0 0 8px cyan, 0 0 16px cyan;
 }   
